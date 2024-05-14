@@ -2,21 +2,43 @@ const { Kafka } = require('kafkajs')
 
 const kafka = new Kafka({
   clientId: 'my-app',
-  brokers: ['192.168.0.1:9092'],
+  brokers: ['localhost:9092'],
 })
 
 async function init() {
-  const producer = kafka.producer()
 
-  await producer.connect()
-  await producer.send({
-    topic: 'test-topic',
-    messages: [
-      { value: 'Hello KafkaJS user!' },
-    ],
-  })
+    const producer = kafka.producer()
 
-  await producer.disconnect()
+    console.log("Producer connecting...");
+    await producer.connect()
+    console.log("Producer connected...");
+
+    console.log("topics creation started...");
+    await producer.createTopics({
+        topics: [
+            {
+                topic: "Auth",
+                numPartition: 2
+            },
+            {
+                topic: "database"
+            },
+            {
+                topic: "email"
+            },
+            {
+                topic: "server"
+            },
+            {
+                topic: "service"
+            }
+        ],
+    });
+    console.log("Topics created successfully!");
+
+    console.log("producer disconnecting!");
+    await producer.disconnect()
+    console.log("producer disconected successfully");
 }
 
 init();
