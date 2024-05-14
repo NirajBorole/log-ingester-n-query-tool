@@ -1,0 +1,98 @@
+[
+    {
+      "level": "error",
+      "log_string": "Failed to send email",
+      "timestamp": "2023-09-15T08:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email marked as spam",
+      "timestamp": "2023-09-15T10:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email bounced back",
+      "timestamp": "2023-09-15T12:15:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email delivery delayed",
+      "timestamp": "2023-09-15T14:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email opened by recipient",
+      "timestamp": "2023-09-15T15:15:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email attachment downloaded",
+      "timestamp": "2023-09-15T16:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email marked as important",
+      "timestamp": "2023-09-15T18:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "error",
+      "log_string": "Failed to send email",
+      "timestamp": "2023-09-15T08:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "error",
+      "log_string": "Failed to send email",
+      "timestamp": "2023-09-15T11:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email unsubscribe request",
+      "timestamp": "2023-09-16T11:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email marked as spam",
+      "timestamp": "2023-09-16T13:15:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Email sent successfully",
+      "timestamp": "2023-09-16T14:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    }
+  ]

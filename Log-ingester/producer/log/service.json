@@ -1,0 +1,65 @@
+[
+    {
+      "level": "error",
+      "message": "Failed to process refund",
+      "timestamp": "2023-09-16T13:45:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "refundType": "credit_card"
+      }
+    },
+    {
+      "level": "error",
+      "message": "Failed to process order",
+      "timestamp": "2023-09-16T10:00:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "orderType": "online_purchase"
+      }
+    },
+    {
+      "level": "error",
+      "message": "Failed to process order return",
+      "timestamp": "2023-09-16T22:00:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "returnType": "defective_item"
+      }
+    },
+    {
+      "level": "error",
+      "message": "Failed to process payment",
+      "timestamp": "2023-09-15T11:30:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "paymentMethod": "credit_card"
+      }
+    },
+    {
+      "level": "error",
+      "message": "Payment gateway timeout",
+      "timestamp": "2023-09-16T08:30:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "paymentMethod": "paypal"
+      }
+    },
+    {
+      "level": "error",
+      "message": "Failed to process subscription",
+      "timestamp": "2023-09-16T20:30:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "subscriptionType": "monthly_plan"
+      }
+    },
+    {
+      "level": "error",
+      "message": "Failed to process subscription cancellation",
+      "timestamp": "2023-09-16T23:30:00Z",
+      "metadata": {
+        "parentResourceId": "server-5432",
+        "cancellationType": "auto_renewal"
+      }
+    }
+  ]

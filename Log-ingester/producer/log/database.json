@@ -1,0 +1,178 @@
+[
+    {
+      "level": "info",
+      "log_string": "Connected to the database",
+      "timestamp": "2023-09-15T09:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "error",
+      "log_string": "Database connection lost",
+      "timestamp": "2023-09-15T10:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database record deleted",
+      "timestamp": "2023-09-15T11:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database query executed",
+      "timestamp": "2023-09-15T14:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database index created",
+      "timestamp": "2023-09-15T15:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "error",
+      "log_string": "Database record not found",
+      "timestamp": "2023-09-15T17:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database table created",
+      "timestamp": "2023-09-15T18:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Connected to the database",
+      "timestamp": "2023-09-15T09:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Connected to the database",
+      "timestamp": "2023-09-15T11:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Connected to the database",
+      "timestamp": "2023-09-15T11:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Connected to the database",
+      "timestamp": "2023-09-15T14:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database schema updated",
+      "timestamp": "2023-09-16T09:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database index rebuild",
+      "timestamp": "2023-09-16T11:00:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database connection pool expanded",
+      "timestamp": "2023-09-16T12:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "error",
+      "log_string": "Critical database error",
+      "timestamp": "2023-09-16T14:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "error",
+      "log_string": "Database connection timeout",
+      "timestamp": "2023-09-16T16:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database query optimization",
+      "timestamp": "2023-09-16T17:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database transaction rollback",
+      "timestamp": "2023-09-16T19:15:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database record deleted",
+      "timestamp": "2023-09-16T20:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database index creation",
+      "timestamp": "2023-09-16T23:45:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database backup completed",
+      "timestamp": "2023-09-15T13:15:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    },
+    {
+      "level": "info",
+      "log_string": "Database backup completed",
+      "timestamp": "2023-09-16T15:30:00Z",
+      "metadata": {
+        "source": "log3.log"
+      }
+    }
+  ]
