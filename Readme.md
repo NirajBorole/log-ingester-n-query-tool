@@ -1,16 +1,16 @@
-## Log ingetser and Query Interface
+# Log ingetser and Query Interface
 
-# Objective 
+## Objective 
 
 - To integrate various services and create message queue to analyize and query the various parameter using user interface. Reading logs from various log files stored on local machine. Fetching logs by various parameters like timestamp, date range and metadata, etc.
 
-# Feature
+## Feature
 
 - Full Text Search 
 - Regular Expression Search 
 - Search from given time range 
 
-# Get started 
+## Get started 
 
 Prerequisites
 
@@ -20,9 +20,10 @@ Kafka
 Reactjs
 Docker
 
-# Install and Usage 
+## Install and Usage 
 
 - Clone repository
+
 ``` shell
 
 git clone https://github.com/NirajBorole/log-ingester-n-query-tool.git
